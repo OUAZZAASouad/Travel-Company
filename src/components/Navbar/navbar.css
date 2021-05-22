@@ -1,0 +1,35 @@
+.navbar{
+    grid-column: 1 / span 5;
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr  1fr ;
+    /* padding: 0 13% 0 13%; */
+}
+
+.items{
+    grid-column-start: 3 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: #bab3ab;
+    font-weight: 500;
+}
+
+a:hover, .active{
+    color: #e86851;
+}
+
+.company{
+    display: flex;
+    grid-column: 2 / span 1;
+}
+
+.company p{
+    font-family: Raleway;
+    color: #bab3ab;
+    font-size: 1.5rem;
+}
